@@ -1,0 +1,123 @@
+/* ----------font link part start------------- */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* ----------font link part end--------------- */
+/* -----------common css part start------------*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+:root{
+    --Ubuntu:"Ubuntu", sans-serif;
+    --primarycolor: #42454A;
+}
+/* -----------common css part end-------------- */
+/* -----------nav bar css part start------------ */
+.main_menu{
+    padding: 26px 0;
+    border-bottom: 1px solid #EAE8F3;
+}
+.main_menu img{
+    width: 70px;
+    height: 47px;
+}
+.main_menu ul{
+    gap: 75px;
+}
+.main_menu ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    color: var(--primarycolor) !important;
+    padding: 0 !important;
+}
+.menu_buttons{
+    width: 232px;
+    display: flex;
+    gap: 24px;
+}
+.menu_buttons .sign_in{
+    width: 102px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    color: #42454A;
+    letter-spacing: 2%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_buttons .sign_in:hover{
+    width: 102px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #42454A;
+    transition: .5s all linear;
+}
+.menu_buttons .sign_up{
+    width: 102px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #42454A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_buttons .sign_up:hover{
+    width: 102px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    color: #42454A;
+    letter-spacing: 2%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background: #FFFFFF;
+    transition: .5s all linear;
+}
+/* -----------nav bar css part end-------------- */
+/* -----------nav bar css part start------------ */
+/* -----------nav bar css part end-------------- */
+/* -----------nav bar css part start------------ */
+/* -----------nav bar css part end-------------- */
+/* -----------nav bar css part start------------ */
+/* -----------nav bar css part end-------------- */
+/* -----------nav bar css part start------------ */
+/* -----------nav bar css part end-------------- */
+/* -----------nav bar css part start------------ */
+/* -----------nav bar css part end-------------- */
+/* -----------nav bar css part start------------ */
+/* -----------nav bar css part end-------------- */
+/* -----------nav bar css part start------------ */
+/* -----------nav bar css part end-------------- */
+/* -----------nav bar css part start------------ */
+/* -----------nav bar css part end-------------- */
