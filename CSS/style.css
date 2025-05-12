@@ -108,6 +108,10 @@ img{
 }
 /* -----------nav bar css part end-------------- */
 /* -----------banner bar css part start--------- */
+#banner{
+  position: relative;
+  padding-top: 84px;
+}
 .banner_text h1{
     font-size: 90px;
     font-weight: 300;
@@ -184,7 +188,9 @@ img{
     }
   }
   .banner_button{
-    margin-top: 62px;
+    margin-top: 44px;
+    display: flex;
+    gap: 50px;
   }
   .banner_button span{
     width: 58px;
@@ -205,6 +211,34 @@ img{
     display: flex;
     align-items: center;
     gap: 21px;
+  }
+  .banner_button .watch_video{
+    width: 87px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--Ubuntu);
+    color: #414449;
+    line-height: 25px;
+    letter-spacing: 1%;
+  }
+  .banner_button .play_button{
+    width: 80px;
+    height: 80px;
+    border: .83px;
+    animation: play 4s linear infinite;
+  }
+  @keyframes play{
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  .banner_img{
+    position: absolute;
+    top: 31px;
+    right: 0;
   }
 /* -----------banner bar css part end----------- */
 /* -----------nav bar css part start------------ */
