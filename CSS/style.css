@@ -183,7 +183,29 @@ img{
       border-color: transparent;
     }
   }
-  
+  .banner_button{
+    margin-top: 62px;
+  }
+  .banner_button span{
+    width: 58px;
+    height: 58px;
+    background: #c6c7c9;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fdf9f7;
+  } 
+  .banner_button .buy{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--Ubuntu);
+    color: #17181A;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+  }
 /* -----------banner bar css part end----------- */
 /* -----------nav bar css part start------------ */
 /* -----------nav bar css part end-------------- */
